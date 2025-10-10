@@ -22,3 +22,13 @@ reports/figures/*
 # IDE
 .vscode/
 .idea/
+# --- excepciones para placeholders ---
+!reports/figures/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# --- artefactos locales opcionales ---
+batch.json
+request.json
+reports/batch_scores.json
+reports/predictions_test.csv
