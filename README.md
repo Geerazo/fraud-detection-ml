@@ -1,5 +1,7 @@
 Fraud Detection in Financial Transactions
 
+![CI](https://github.com/Geerazo/fraud-detection-ml/actions/workflows/ci.yml/badge.svg)
+
 Pipeline reproducible para detección de fraude (Kaggle Worldline). Incluye preprocesamiento, balanceo SMOTE+under, XGBoost y evaluación, más API de inferencia (FastAPI) y ejemplo de consumo desde Power BI.
 
 📦 Requisitos
