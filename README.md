@@ -26,6 +26,7 @@ Descarga desde Kaggle (Worldline) y deja el CSV en data/raw/creditcard.csv.
 ⚙️ Pasos rápidos
 # 0) Activar venv e instalar
 pip install -r requirements.txt
+python -m pytest
 
 # 1) Preprocesar (requiere data/raw/creditcard.csv)
 python -m src.data.preprocess --input data/raw/creditcard.csv --outdir data/processed --test-size 0.25
